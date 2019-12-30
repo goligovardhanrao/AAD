@@ -1,0 +1,242 @@
+ #hed
+{
+    color:#DB7418;
+    text-align: center;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.m-img
+{
+ width: 1220px;
+    height: 330px;
+	
+}
+
+.m-img img
+{
+    width: 1220px;
+    height: 330px;
+    margin-left: -60px;
+    }
+
+.m-t
+{
+    position: relative;
+    top:-285px;
+    text-align: center;
+    margin-left: 650px;
+    left: 10px;
+    right: 50px; 
+    color: white;
+}
+.m-t button
+{
+   margin-top: 10px;
+    color:#DB7418 ;
+    background-color: white;
+}
+
+.m-t h3
+{
+    font-size: 32px;
+}
+.m-t p
+{
+    font-size: 17px;
+    
+}
+
+.left-bg
+{
+position: absolute;
+bottom: 285px;
+    left: -75px;
+    overflow: hidden;   
+}
+.left-bg img
+{
+    width: 400px;
+    height: 400px;
+}
+
+.right-bg
+{
+    position: absolute;
+    bottom: 200px;
+    left: 1090px;
+    bottom: 230px;
+}
+.right-bg img
+{
+   width: 230px;
+    height: 230px;
+   
+}
+
+.m-dimo
+{	margin-left: -30px;
+    width: 667px;
+    position: absolute;
+    left: -30px;
+}
+
+ .m-dimo .diamond {
+      width: 0;
+     height: 0;
+      border: 4px solid transparent;
+      border-bottom-color: #DB7418;
+	 position: relative;
+	 left: -25px;
+	 top: -22px;
+      
+    }
+ .m-dimo .diamond:after {
+      content: '';
+      position: absolute;
+      left: -4px;
+	top: 4px;
+      
+        width: 0;
+     height: 0;
+      border: 4px solid transparent;
+      border-top-color: #DB7418;
+    }
+   .m-dimo .diamond-1 {
+      width: 0;
+      height: 0;
+      border: 7px solid transparent;
+      border-bottom-color: white;
+      position: relative;
+      left: -28px;
+	   top: -14px;
+	   
+		
+    }
+   .m-dimo  .diamond-1:after {
+      content: '';
+      position: absolute;
+      left: -7px;
+      top: 7px;
+      width: 0;
+      height: 0;
+      border: 7px solid transparent;
+      border-top-color: white;    
+    }
+   .m-dimo .diamond-2 {
+      width: 0;
+      height: 0;
+      border: 9px solid transparent;
+      border-bottom-color: #DB7418;
+      position: relative;
+      top: 0px;
+	   left: -30px;
+         
+    }
+    .m-dimo .diamond-2:after {
+      content: '';
+      position: absolute;
+      left: -9px;
+      top: 9px;   
+      width: 0;
+      height: 0;
+      border: 9px solid transparent;
+      border-top-color: #DB7418;    
+    }
+.m-dimo #solid
+{
+	width: 265px; 
+    border: 1px solid #DB7418;
+  top: 18px;
+	left:4px;
+	
+}
+
+
+    #diamond {
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-bottom-color: #DB7418;
+      position: relative;
+      top: -37px;
+        left: 260px;
+    }
+    #diamond:after {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top:8px;
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-top-color: #DB7418;
+    }
+
+ .right-diamond
+{
+	
+	position: relative;
+	left: 25px;
+}
+.right-diamond #solid
+{
+	width: 260px;
+	
+	position: absolute;
+	left: -75px;
+	top: 17px;	
+}
+.right-diamond #diamond
+{
+	position: absolute;
+	top: 2px;
+	left:-30px;
+	
+}
+.right-diamond .diamond-2
+{
+	float: right;
+	
+}
+.right-diamond .diamond-1
+{
+	float: right;
+	position: relative;
+	top: 4px;
+	left: -14px;		
+	
+}
+.right-diamond .diamond
+{
+	float: right;
+	position: relative;
+	top: 10px;
+	left:  -3px;
+	
+}
+
+/*   middle Diamond  */
+
+
+
+    #diamond-big {
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-bottom-color: red;
+      position: relative;
+      top: -103px;
+		left: 5px;
+    }
+    #diamond-big:after {
+      content: '';
+      position: absolute;
+      left: -50px;
+      top: 50px;
+      width: 0;
+      height: 0;
+      border: 50px solid transparent;
+      border-top-color: red;
+    }
+  
