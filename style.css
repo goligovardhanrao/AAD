@@ -601,27 +601,21 @@ p.title small
 {
     
     width: 350px; 
-    border: 1px solid #DB7418;
- 
-    
+    border: 1px solid #DB7418; 
 }
-
-
-
-
-
 
 .background-2 img
 {
-   
     position: absolute;
-    left: -90px;
-    
-  
- 
-    
+    left: -155px;
+	bottom: -143px;
+   
 }
 
+#Carousel_latest
+{
+	left: -10px;
+}
 
 
 /*    Latest Event     */
@@ -675,7 +669,6 @@ p.title small
 .latest_event{
     position: absolute;
     left: 50px;
-    
     top: 40px;  
 }
 
@@ -690,6 +683,9 @@ p.title small
     left:700px;
      text-align: left;
     padding-left: 50px;
+	
+	box-shadow: 1px 2px 1px 1px gray;
+	
    
     }
    
@@ -712,8 +708,11 @@ p.title small
     width: 300px;
     height: 300px;
     position: absolute;
-    top:50px;
+    top: -25px;
     left: 400px;
+	border: 1px solid green;
+	z-index: 1;
+	
 }
 
 
@@ -818,7 +817,7 @@ p.title small
     width: 250px; 
     border: 1px solid #DB7418;
    position: absolute;
-   top: 225px;
+   top: 227px;
     margin-left: 9px;
     
    
@@ -832,8 +831,8 @@ p.title small
       border: 10px solid transparent;
       border-bottom-color: #DB7418;
       position: relative;
-      top: -53px;
-        left: 250px;
+      top: -52px;
+        left: 265px;
     }
     #diamond:after {
       content: '';
