@@ -30,13 +30,21 @@
     right: 50px; 
     color: white;
 }
-.m-t button
+.m-t .btn
 {
    margin-top: 10px;
     color:#DB7418 ;
     background-color: white;
+	width: 200px;
+	height: 50px;
+	text-decoration: none;
+	font-size: 17px;
 }
-
+.m-t .btn a
+{
+	color:#DB7418 ;
+	text-decoration: none;
+}
 .m-t h3
 {
     font-size: 32px;
@@ -52,12 +60,13 @@
 position: absolute;
 bottom: 285px;
     left: -75px;
-    overflow: hidden;   
+      
 }
 .left-bg img
 {
     width: 400px;
     height: 400px;
+	overflow: hidden; 
 }
 
 .right-bg
@@ -145,24 +154,44 @@ bottom: 285px;
     }
 .m-dimo #solid
 {
-	width: 265px; 
+	width: 275px; 
     border: 1px solid #DB7418;
   top: 18px;
-	left:4px;
+	left:1px;
 	
 }
 
 
-    #diamond {
+    #diamond-m {
       width: 0;
       height: 0;
       border: 8px solid transparent;
       border-bottom-color: #DB7418;
       position: relative;
-      top: -37px;
-        left: 260px;
+      top: 2px;
+        left: -45px;
     }
-    #diamond:after {
+    #diamond-m:after {
+      content: '';
+      position: absolute;
+      left: -8px;
+      top:8px;
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-top-color: #DB7418;
+    }
+
+#diamond-n {
+      width: 0;
+      height: 0;
+      border: 8px solid transparent;
+      border-bottom-color: #DB7418;
+      position: relative;
+	left: 265px;
+	bottom: 37px;
+    }
+    #diamond-n:after {
       content: '';
       position: absolute;
       left: -8px;
@@ -187,13 +216,8 @@ bottom: 285px;
 	left: -75px;
 	top: 17px;	
 }
-.right-diamond #diamond
-{
-	position: absolute;
-	top: 2px;
-	left:-30px;
-	
-}
+
+
 .right-diamond .diamond-2
 {
 	float: right;
@@ -224,7 +248,7 @@ bottom: 285px;
       width: 0;
       height: 0;
       border: 50px solid transparent;
-      border-bottom-color: red;
+      border-bottom-color: #C11200 ;
       position: relative;
       top: -103px;
 		left: 5px;
@@ -237,6 +261,15 @@ bottom: 285px;
       width: 0;
       height: 0;
       border: 50px solid transparent;
-      border-top-color: red;
+      border-top-color: #C11200 ;
     }
   
+ .Diamond-Ring img
+{
+	width: 50px;
+	height: 50px;
+	
+	position: absolute;
+	left: 314px;
+	top: -30px;
+}
