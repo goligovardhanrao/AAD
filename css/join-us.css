@@ -1,0 +1,87 @@
+ #hedus
+{
+    color:#DB7418;
+    text-align: center;
+margin-top: -150px;
+	padding-bottom: 30px;
+	font-weight: bold;
+	font-size:  26px;
+	
+}
+
+
+.us-img img
+{
+    width: 1220px;
+    height: 330px;
+    margin-left: -60px;
+    }
+
+.us-t
+{
+    position: relative;
+    top:-300px;
+    text-align: center;
+    margin-right: 650px;
+    left: 40px;
+    right: 450px; 
+    color: white;
+	
+}
+.us-t .btn
+{
+   margin-top: 15px;
+    color:#DB7418 ;
+    background-color: white;
+	width: 250px;
+	height: 50px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.us-t .btn a
+{
+	color:#DB7418 ;
+	text-decoration: none;
+}
+.us-t h3
+{
+    font-size: 32px;
+}
+.us-t p
+{
+    font-size: 17px;
+    
+}
+
+#pp
+{
+	color: white;
+	
+}
+#pp p
+{
+	padding-top: 15px;
+}
+
+.left-us
+{
+    position: absolute;
+    left: -70px;
+	top: 100px;
+	
+      
+}
+.left-us img
+{
+    width: 230px;
+    height: 230px;
+	
+}
+
+
+
+
+
+
+
+

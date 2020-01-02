@@ -1,6 +1,6 @@
 .container-fluid
 {
-  
+  font-size: 17px;
 
     padding-top: 15px;
 }
@@ -140,9 +140,16 @@ ul.social-network li {
 
 
 
+.map{
+	padding-top: 40px;
+	color: darkorange;
+	
+}
 
-
-
+.map h3
+{
+	font-size: 23px;
+}
 
 
 

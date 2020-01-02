@@ -12,15 +12,7 @@
     height: 300px;
 }
 
-@media(max-width: 768px) {
-    body {
-        padding: 0;
-    }
 
-    .container.gallery-container {
-        border-radius: 0;
-    }
-}
 h1
 {
 	padding: 30px;

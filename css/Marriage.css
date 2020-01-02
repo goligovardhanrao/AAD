@@ -4,14 +4,10 @@
     text-align: center;
 	padding-top: 40px;
 	padding-bottom: 30px;
+	font-weight: bold;
+	font-size:  26px;
 }
 
-.m-img
-{
- width: 1220px;
-    height: 330px;
-	
-}
 
 .m-img img
 {
@@ -23,7 +19,7 @@
 .m-t
 {
     position: relative;
-    top:-285px;
+    top:-300px;
     text-align: center;
     margin-left: 650px;
     left: 10px;
@@ -57,24 +53,24 @@
 
 .left-bg
 {
-position: absolute;
-bottom: 285px;
-    left: -75px;
+    position: absolute;
+    left: 45px;
+	top: 20px;
       
 }
 .left-bg img
 {
     width: 400px;
     height: 400px;
-	overflow: hidden; 
+	
 }
 
 .right-bg
 {
     position: absolute;
-    bottom: 200px;
-    left: 1090px;
-    bottom: 230px;
+top: 360px;
+    left: 1210px;
+    
 }
 .right-bg img
 {
@@ -273,3 +269,9 @@ bottom: 285px;
 	left: 314px;
 	top: -30px;
 }
+
+
+
+
+
+
