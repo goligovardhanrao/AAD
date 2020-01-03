@@ -72,36 +72,3 @@
 	left: 100px;
 	right: 100px;
 }
-.image_stack .rotate1 {
-	
-	/* rotate last image 15 degrees to the right */
-	-webkit-transform: rotate(15deg); /* safari and chrome */
-	-moz-transform: rotate(15deg);/*firefox browsers */
-	transform: rotate(15deg);/*other */
-	-ms-transform:rotate(15deg); /* Internet Explorer 9 */
-	-o-transform:rotate(15deg); /* Opera */
-}
-.image_stack .rotate2 {/* css not used*/
-	-webkit-transform: rotate(0deg); /* safari and chrome */
-	-moz-transform: rotate(0deg);/*firefox browsers */
-	transform: rotate(0deg);/*other */
-	-ms-transform:rotate(0deg); /* Internet Explorer 9 */
-	-o-transform:rotate(0deg); /* Opera */
-}
-.image_stack .rotate3 {
-	
-	
-	/*rotate first image 15 degrees to the left*/
-	-webkit-transform: rotate(-15deg); /* safari and chrome */
-	-moz-transform: rotate(-15deg); /*firefox browsers */
-	transform: rotate(-15deg);/*other */
-	-ms-transform:rotate(-15deg); /* Internet Explorer 9 */
-	-o-transform:rotate(-15deg); /* Opera */
-	cursor: pointer;
-}
-
-
-
-
-
-
