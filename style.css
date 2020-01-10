@@ -87,9 +87,9 @@ h6{
 
 .navbar
 {
-    padding: 10px;
+    
 	
- background-color: white;
+
 	
 }
 
@@ -104,17 +104,16 @@ h6{
     font-size: 22px;
     font-family: Perfectly Amicable  ; 
    color: #DB7418;
+  margin-left: 23px;	
   
-    margin-left: 17px;
    
 
 }
 
 .nav-item a
 {
-    
-
-    margin-right: 90px;   
+    margin-right: 50px;
+ 
 }
 
 .dropdown-menu .dropdown-item
@@ -328,116 +327,178 @@ h6{
 
 /*  LEADERSHIP GALLERY   */
 
-h1{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom:-50px;
+
+div .gallery img {
+  width: 100%;
+  height: auto;
+	
+	border: 3px solid darkorange;
+	align-items: center;
+	
+	
+}
+
+ div .desc {
+  padding: 15px;
+	text-align: center;
+	margin-right: 30px;
 }
 
 
-.flex-container {
-  display: flex;
-    padding-top: 50px;
-    padding-left: 60px;
-    padding-right: 20px;
-    
-    background-color: white;
-    text-transform: uppercase;
-    justify-content: space-around;
-    
+
+ .responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+	
+	  
 }
-.flex-container img
-{
-    margin-bottom: 20px;  
-}
-.flex-container > div {
-  background-color: white;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
-    text-align: center;
-    
+@media only screen and (max-width: 992px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
 
-.flex-container > h3
-{
-    font-size: 17px !important;
-    padding-top: 10px;
+@media only screen and (max-width: 768px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
 }
+@media only screen and (max-width: 576px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+	  
+  }
+}
+
+
+@media only screen and (max-width: 350px) {
+  .responsive {
+    width: 100%;
+	  
+	  
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 
 
 
 /*      slideshow   */
 
-@font-family{
-    font-family: UtopiaStd-BoldDisp;
-    src: url(fonts/UtopiaStd-BoldDisp.otf)
+
+
+========================================================
+
+.slider {
+	position: relative;
+	padding-top:70px;
+	height: 400px;
+	
 }
 
-
-
-#myCarousel
-{
-     width: 1255px;
-    margin-left: -74px; 
-    margin-top: -15px;
-    margin-bottom: -40px;
-    
-}
-
- .background 
-{
-    position: absolute;
-    top: 260px;
-    left: 1200px;
+.slider img {
    
+	width: 1255px;
+	
+  
+  
 }
 
+#carousel-slider {
+  position: relative;
+}
 
+#carousel-slider .carousel-indicators {
+  bottom: -25px;
+}
+
+#carousel-slider .carousel-indicators li {
+  border: 1px solid #ffbd20;
+}
+
+#carousel-slider a i {
+  border: 1px solid #fff;
+  border-radius:50%;
+  font-size: 30px;
+  height: 50px;
+  padding: 8px;
+  position: absolute;
+  top: 50%;
+  width: 50px;
+  color:#fff;
+}
+
+#carousel-slider a i:hover {
+  background:#0BA9F9;
+  color:#fff;
+  border: 1px solid #0BA9F9;
+}
+
+#carousel-slider
+.carousel-control {
+  width:inherit;
+}
+
+#carousel-slider .carousel-control.left i {
+  left:40px;
+  top: calc(50% - 25px);
+	position: relative;
+	top: -70px;
+	left: -70px;
+    margin-right: 40px;
+	border: 3px solid aqua;
+}
+
+#carousel-slider .carousel-control.right i {
+  right: 40px;
+  top: calc(50% - 25px);
+position: relative;
+	top: -70px;
+	left: -70px;
+    margin-right: 40px;
+	border: 3px solid aqua;
+}
+
+#carousel-slider
+.carousel-control.left,
+#carousel-slider
+.carousel-control.right {
+  background: none;
+}
 
 a.left
 {
     margin-left: 1000px;
     width: 50px;
     height: 50px;
-    top: 380px;
+    top: 350px;
     left: 100px;
-    background-image:  -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0, );
+    
 	
 }
 
-.left img
-{
-    width: 40px;
-    height: 40px;
-	 background-image:  -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0, );
-}
+/*
 
 a.right
 {
     width: 50px;
     height: 50px;
    right: 50px;
-    top: 380px;
+    top: 330px;
     margin-right: 40px;
      
 }
-
-
-
-.right img
-{
-    width: 40px;
-    height: 40px;
-    color: white;    
-    transform: scaleX(-1);
-
- 
-}
-
-
-
-
+*/
 
 
  #pointer {
@@ -446,7 +507,7 @@ a.right
       position: relative;
       background: white;
      bottom: 100px;
-     left: 20px;
+     left: 129px;
      padding-left: 30px;
      
      
@@ -560,7 +621,7 @@ p.title small
 
 .solid
 {
-/*   dnot remove this  */
+   dnot remove this  
 }
 
 .circle_down
@@ -574,7 +635,6 @@ p.title small
     top: 11px;
     left: 0px;
 }
-
 
 .circle_down .dot2{
     
@@ -614,6 +674,319 @@ p.title small
 {
 	left: -10px;
 }
+
+@media (max-width: 767px) {
+
+  .carousel-caption  h2, .carousel-caption  h2 span {
+    font-size: 36px;
+  }
+
+  .carousel-caption  p {
+    font-size: 24px;
+    margin-top: 24px;
+  }
+
+  .carousel-inner .form-inline .form-group button[type="livedemo"], .carousel-inner .form-inline .form-group button[type="getnow"]{
+  	padding:10px 30px;
+  	font-size:18px;
+  }
+
+  .carousel-inner .form-inline {
+    margin-bottom: 0;
+  }
+
+  .carousel-inner .form-group {
+    display: inline;
+  }
+
+  #carousel-slider .carousel-indicators {
+    bottom: 0;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .carousel-caption {
+    top: -30px;
+  }
+
+  .carousel-caption  h2, .carousel-caption  h2 span {
+    font-size: 24px;
+  }
+
+  .carousel-caption  p {
+    font-size: 18px;
+    margin-top: 18px;
+  }
+
+  .carousel-inner .form-inline .form-group button[type="livedemo"], .carousel-inner .form-inline .form-group button[type="getnow"]{
+  	padding:5px 20px;
+  	font-size:14px;
+  }
+
+  .carousel-inner .form-inline {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .carousel-inner .form-group {
+    display: inline;
+    padding-top: 0;
+  }
+
+  #carousel-slider .carousel-indicators {
+    display: none !important;
+  }
+
+  .carousel-inner .btn-primary {
+    margin-top: 10px;
+  }
+}
+
+
+
+
+.img-responsive
+{
+	
+	padding-left: 85px;
+	padding-right: 10px;
+	
+	
+}
+
+
+===========================================================
+
+@font-family{
+    font-family: UtopiaStd-BoldDisp;
+    src: url(fonts/UtopiaStd-BoldDisp.otf)
+}
+
+
+
+#myCarousel
+{
+     width: 1255px;
+    margin-left: -74px; 
+    margin-top: -15px;
+    margin-bottom: -40px;
+    
+}
+
+ .background 
+{
+    position: absolute;
+    top: 260px;
+    left: 1200px;
+   
+}
+
+
+
+a.left
+{
+    margin-left: 1000px;
+    width: 50px;
+    height: 50px;
+    top: 380px;
+    left: 100px;
+    background-image:  -webkit-linear-gradient(left,rgba(0,0,0,.0001) 0, );
+	
+}
+
+
+a.right
+{
+    width: 50px;
+    height: 50px;
+   right: 50px;
+    top: 380px;
+    margin-right: 40px;
+     
+}
+
+
+
+
+/*
+
+
+ #pointer {
+      width: 400px;
+      height: 75px;
+      position: relative;
+      background: white;
+     bottom: 100px;
+     left: 20px;
+     padding-left: 30px;
+     
+     
+*/
+    
+    }
+    #pointer:after {
+        
+        width: 200px;
+      height: 100px;
+      background: #DB7418;
+        
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0px;
+      width: 0;
+      height: 0;
+      border-left: 5px solid #DB7418;
+      border-top: 55px solid transparent;
+      border-bottom: 20px solid transparent;
+        
+       
+    }
+    #pointer:before {
+      content: "";
+      position: absolute;
+      right: -40px;
+      bottom: 0px;
+      width: 0;
+      height: 0;
+        top: 0px;
+      border-left: 40px solid white;
+      border-top: 40px solid transparent;
+      border-bottom: 36px solid transparent;
+       
+    }
+
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  border:1px solid  #DB7418;
+    position:relative;
+    top: 5px;
+    left: 0px;
+  
+}
+
+.dot3 {
+  height: 5px;
+  width: 5px;
+  background-color:  #DB7418;
+  border-radius: 50%;
+  display: inline-block;
+  
+    position:relative;
+bottom: 18px;
+    left: 2px;  
+}
+.dot2 {
+  height:10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 70%;
+  display: inline-block;
+  border:1px solid  #DB7418;
+    padding-top: 10px; 
+    position:relative;
+    bottom: 24px;
+    left: 210px;
+    
+    padding-right: 10px;
+}
+
+
+
+p.dotted 
+{
+    width: 200px;
+    position: relative;
+   bottom: 6px;
+    left: 10px;
+    border-top-style: dotted;
+    color: #DB7418;
+}
+
+p.title  
+{
+    
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+    color: #DB7418;
+   font-weight: bold;
+    font-family: UtopiaStd-BoldDisp;
+    font-size: 32px;
+    
+}
+p.title small
+{
+    color: black;
+    font-size: 15px;
+}
+
+
+    
+}
+
+.solid
+{
+   dnot remove this  
+}
+
+.circle_down
+{
+    position: relative;
+    bottom: 75px;
+}
+
+.circle_down .dot{
+    position: relative;
+    top: 11px;
+    left: 0px;
+}
+
+.circle_down .dot2{
+    
+    position: absolute;
+    padding-right: 10px;
+    top: 17px;
+    left: 345px;
+    
+}
+
+.circle_down .dot3{
+    
+    position: relative;
+    left: 3px;
+   
+    
+    
+}
+
+
+.circle_down .solid
+{
+    
+    width: 350px; 
+    border: 1px solid #DB7418; 
+}
+
+.background-2 img
+{
+    position: absolute;
+    left: -155px;
+	bottom: -143px;
+   
+}
+
+#Carousel_latest
+{
+	left: -10px;
+}
+
 
 
 /*    Latest Event     */
@@ -671,20 +1044,27 @@ p.title small
 }
 
 
+.latest-img 
+{
+	background-image: url(images/Latest_Events/On%20Text%20bg.png);
+	  width: 500px;
+    height: 260px;
+    top: 0px;
+    position: absolute;
+    text-align: left;
+  background-size: cover;
+	
+}
+
 .text-latest
 {
-   background-color: white;
     width: 500px;
     height: 260px;
     top: 110px;
     position: absolute;
     left:700px;
      text-align: left;
-    padding-left: 50px;
-	
-	box-shadow: 3px 3px 3px 1px gray;
-	
- 
+    padding-left: 50px; 
     }
    
 
@@ -693,26 +1073,18 @@ p.title small
     padding-top: 50px;
     font-weight: bold;
     font-size:  26px;
+		
+
     
 }
 .text-latest p
 {
     margin-right: 110px;
+
     
     
 }
-.text-latest img
-{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    left: 330px;
-	bottom: 310px;
-	border: 1px solid green;
-	
-	
-	
-}
+
 
 
 
@@ -845,17 +1217,36 @@ p.title small
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*    Andhra_Association_Healthcare_&_Diagnostic_Centre */
 
  .left-im{
     float: left;
-    width: 500px;
-    height: 500px;
+	max-width: 500px;
+
+   	
 }
 
  .left-im img{
     padding: 10px;  
-    width: 500px;
+    width: 100%;
     height: 500px;
 }
 
