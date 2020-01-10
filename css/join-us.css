@@ -21,7 +21,13 @@
 {
 	position: relative;
 	left: 20px;
-	border: 3px solid red;
+	
+}
+.ji2 img
+{
+	position: relative;
+	left:-20px;
+
 }
 
 .us-t
