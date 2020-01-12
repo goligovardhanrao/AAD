@@ -11,36 +11,42 @@
     height: 230px;	
 }
 
-
-.testimonials-box {
-	
- width: 1220px;
-
-}
- .ji1 img
-{
-	position: relative;
-	left: 20px;
+.center{
+	text-align: center;
+	color: darkorange;
 	
 }
-.ji2 img
-{
-	position: relative;
-	left:-20px;
-
+.center h2{
+	margin-bottom: 50px;
+	
 }
 
+
+#about
+{
+	margin-top: -190px;
+}
+
+
+.js
+{
+	
+	height: 350px;
+	min-width: 1220px;
+	
+}
+.ju .ju1
+{
+	height: 350px;
+}
 .us-t
 {
     position: relative;
     top:-300px;
     text-align: center;
-    margin-right: 650px;
-	left: -20px;
-    right: 450px; 
-    color: white;
 	width: 100%;
-	
+    color: white;
+
 }
 .us-t .btn
 {
@@ -75,73 +81,108 @@
 	padding-top: 15px;	
 }
 
+@media (min-width: 1200px) {
+.ju{
+    width:600px;
+	height: 450px;
+	position: relative;
+	left: 50px;
+	padding-right: 0px;
+	padding-left: 0px;
+	
+	
+}
+.ju1{
+    width:600px;
+	height: 450px;
+	float: right;
+	position: relative;
+	bottom: 583px;
+	right: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+		
 
+}
+
+
+
+}
+
+@media (max-width: 1200px) {
+.ju{
+    width:550px;
+	height: 450px;
+	border: 2px solid aqua;
+	position: relative;
+	left: 40px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.ju1{
+    width:550px;
+	height: 450px;
+	border: 2px solid black;
+	float: right;
+	position: relative;
+	bottom: 565px;
+	right: 40px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+}
 
 @media (max-width: 992px) {
-.container{
-    max-width:720px;
+.ju{
+    width:550px;
+	height: 450px;
+	border: 2px solid black;
+	position: relative;
+	left: -20px;
+	padding-right: 0px;
+	padding-left: 0px;
 }
-.ji2
-	{
-		position: absolute;
-		
-	}
-
+.ju1{
+    width:550px;
+	height: 450px;
+	border: 2px solid aqua;
+	float: right;
+	position: relative;
+	bottom: 565px;
+	right: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
-
-
-
-/*
-
-@media (max-width: 768px) {
-.container-fluid{
-    width: 800px;
-	height: 600px;	
-	border: 3px solid aqua;
-}
-.testimonial-img
-	{
-		width: 800px;
-		border: 2px solid aqua;
-	}
-
-	.img-fluid{
-		width: 800px;
-		border: 2px solid red;
-	}
-
 
 }
 
-
-@media only screen and(min-width: 1200px) {
-.testimonials-box{
-    width:100%;
-}}
-
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (max-width: 768px){
+	
+	.ju{
+    width:750px;
+	height: 450px;
+	border: 2px solid black;
+	position: relative;
+	left: -20px;
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.ju1{
+    width:550px;
+	height: 450px;
+	border: 2px solid aqua;
+	float: right;
+	position:absolute;
+	
+	right: 100px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 
 
-
-
-
+	
+}
 
 
 
