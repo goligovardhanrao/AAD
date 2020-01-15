@@ -406,15 +406,15 @@ h6{
 	padding-top:70px;
 	height: 400px;
 	
+	
 }
 
 .slider img {
    
 	width: 1255px;
 	
-  
-  
 }
+
 
 #carousel-slider {
   position: relative;
@@ -468,7 +468,6 @@ position: relative;
 .carousel-control.right {
   background: none;
 }
-
 
 
 
