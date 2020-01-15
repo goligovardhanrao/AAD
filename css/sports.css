@@ -1,14 +1,75 @@
-.sports-title 
-{
-    
-     color:#DB7418;
-    text-align: center;
-	padding-top: 40px;
-	padding-bottom: 10px;
-	font-weight: bold;
-	font-size:  26px;
-	align-items: 
+body{
+    font-family: 'Lato', sans-serif;
+    background: #f7f7f4;
+	
 }
+ 
+.text-center{
+    text-align: center;
+    margin: 1.25rem 0;
+    border-bottom: 1px solid #dadada;
+    padding: 1.25rem 0;
+	
+}
+ 
+.col-md-4{
+    margin: 1.25rem 0;
+}
+ 
+@media screen and (max-width: 34em) {
+  .col-sm-6{
+    margin-left: 1.25rem;
+}
+ 
+}
+
+@media screen and (max-width: 576px) {
+	.img-thumbnail{
+		
+	 margin-left: 30px;
+	border: 2px solid red;
+	}
+
+ 
+}
+
+.text {
+  background-color: white;
+  color:#DB7418;
+  font-size: 23px;
+  padding: 16px 32px;
+	text-decoration: none;
+}
+
+.text .btn a
+{
+	color: darkorange;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+
+
+
+
+#ss {
+	text-align: center;
+	color: darkorange;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.ba{
+	background-image: url(../images/Sports.png);
+background-size: 350px 100%;
+
+background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+
 
 
 .member img {
@@ -42,324 +103,11 @@
 	
 }
 
- .spo {
-  max-width: 1220px;
- 
-  background-image: url('../images/Sports.png');
-  background-size: 100% 100%;
- margin-left: 60px;
-/*	border: 3px solid red;*/
-	 
-
-}
-.text {
-  background-color: white;
-  color:#DB7418;
-  font-size: 23px;
-  padding: 16px 32px;
-	text-decoration: none;
-}
-
-.text .btn a
-{
-	color: darkorange;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-
-
-
-/*
-// Extra large devices (large desktops, 350px and up)
-*/
-/*
-@media only screen and (min-width: 350px) 
-{ 
-	.thumbnail img
+.thw {
 	
-	{ width: 100%;
-		}
-
-.spor .thumbnail 	
-	{		margin-top: 75px;
-		margin-bottom: -60px;
-		min-width: 300px;
-		margin-left: 20px;
-	}
-
-.spo
-	{
-		margin-left: 0px;
-	height: auto;
-		padding-bottom: 200px;
-
-	}
-	
-	.text {
- margin-top: 120px;
+margin-top: 20px;
+	margin-left: 15px;
+	width: 90%;
 }
 
 
-}
-*/
-
-/*
-
-// Extra small devices (portrait phones, less than 576px)
-// No media query since this is the default in Bootstrap
-*/
-
-/*// Small devices (landscape phones, 576px and up)*/
-/*
-@media (min-width: 576px) {
-
-.thumbnail img
-	
-	{
-		width: 100%;
-		
-			
-	}
-.spor .thumbnail 
-	
-	{
-		margin-top: 100px;
-		margin-bottom: -100px;
-		
-	}
-	.spo
-	{
-		 height: auto;
-	}
-}
-*/
-
-/*// Medium devices (tablets, 768px and up)*/
-/*
-@media (min-width: 768px) { 
-	
-	.thumbnail img
-	
-	{ width: 100%;
-		 
-		
-	}
-	.spo{
-		
-		 height: auto;
-	}
-
-}
-*/
-
-/*// Large devices (desktops, 992px and up)*/
-/*
-@media (min-width: 992px) { 
-	
-	.thumbnail img
-	
-	{
-		width: 100%;
-		height: auto;
-		
-	} 
-.spor .thumbnail 
-	
-	{
-		margin-top: 0px;
-		margin-bottom: 0px;
-		
-	}
-
-
-}
-*/
-
-
-
-/*
-
-.cont{
-	width: 100%;
-	margin-left: -100px;
-
-}
-
- .thumb
-{
-	margin-top: 30px;
-	width: 350px;
-
-		
-}
-
-.t1{
-	margin-left: 60px;
-	height: 290px;
-}
-.t2{
-	margin-left: 10px;
-	height: 290px;
-}
-.t3{
-	margin-left: -40px;
-	height: 290px;
-}
-
-
-.backimg {
-  background-image: url("../images/Sports.png");
-  height: 350px;
-width: 1220px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-	left: 45px;
-}
-
-
-
-
-// Extra large devices (large desktops, 1200px and up)
-
-@media (min-width: 1200px) { 
-	.backimg
-	
-	{ width: 100%;
-		
-		
-		}
-
-}
-@media (max-width: 1200px) { 
-	.backimg
-	
-	{ max-width: 100%;
-  height: auto;
-		
-		}
-
-}
-@media (max-width: 992px) { 
-	.backimg
-	
-	{ 
-		
-		max-width: 100%;
-  height: auto;
-		}
-
-}
-@media (max-width: 768px) { 
-	.backimg
-	
-	{ max-width: 100%;
-  height: auto;
-		
-		}
-
-}
-
-*/
-
-
-
-
-
-
-
-
-#team {
-  padding: 60px 0;   
-	
-		
-	
-	background-image: url(../images/Sports.png);
-	height: 350px;
-width: 1220px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-	left: 55px;
-}
-
-#team .member {
-  text-align: center;
-  margin-bottom: 20px;
-  position: relative;
-  overflow: hidden;
-	border: 3px solid white;
-	bottom: 30px;
-	
-}
-
-#team .member .member-info {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transition: 0.2s;
-  padding: 15px 0;
-  background: rgba(29, 28, 41, 0.6);
-}
-
-#team .member .member-info-content {
-  transition: margin 0.2s;
-  height: 40px;
-  transition: height 0.4s;
-}
-
-#team .member:hover .member-info {
-  transition: 0.4s;
-}
-
-#team .member:hover .member-info-content {
-  height: 80px;
-}
-
-#team .member h4 {
-  font-weight: 700;
-  margin-bottom: 2px;
-  font-size: 18px;
-  color: #fff;
-}
-
-#team .member span {
-  font-style: italic;
-  display: block;
-  font-size: 13px;
-  color: #fff;
-}
-
-#team .member .social {
-  margin-top: 15px;
-}
-
-#team .member .social a {
-  transition: none;
-  color: #fff;
-}
-
-#team .member .social a:hover {
-  color: #1bb1dc;
-}
-
-#team .member .social i {
-  font-size: 18px;
-  margin: 0 2px;
-}
