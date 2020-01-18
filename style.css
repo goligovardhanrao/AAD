@@ -85,35 +85,34 @@ h6{
 /*   Nav bar  */
 
 
+
+
 .navbar
 {
+	border: 2px solid black;
     
-	
-
-	
 }
 
 @font-family{
-    font-family: Perfectly Amicable  ;
-    src: url(fonts/perfectly%20amiable.ttf)
+    font-family: Perfectly Amicable  
+    src: url(fonts/perfectly%20amiable.ttf);
 
 }
+
 
 .nav-item {
     
     font-size: 22px;
     font-family: Perfectly Amicable  ; 
    color: #DB7418;
-  margin-left: 23px;	
-  
-   
-
+  margin-left: 20px;	
 }
 
 .nav-item a
 {
     margin-right: 50px;
- 
+	text-align: center;
+	padding: 0px 0px;	
 }
 
 .dropdown-menu .dropdown-item
@@ -135,6 +134,8 @@ h6{
   display: inline-block;
   position: relative;
   opacity: 0.75;
+	padding: 0px;
+	
    
 }
 
@@ -142,6 +143,8 @@ h6{
   opacity: 1;
     text-decoration: underline;
     color: #DB7418;
+	
+	
 }
 
 .nav-link::before {
@@ -151,6 +154,7 @@ h6{
   position: absolute;
   background-color: #DB7418;;
     text-decoration: underline;
+
 }
 
 .nav-link::before {
@@ -159,7 +163,8 @@ h6{
 }
 
 .nav-link:hover::before {
-  width: 80%;
+  width: 90%;
+	
 }
 
 
@@ -192,16 +197,17 @@ h6{
 
 
 
+
 /* SERVICES */
 
 @font-family{
-    font-family:URW-Grotesk-Light;
+    font-family:URW-Grotesk-Light
     src: url(fonts/URW-Grotesk-Light.ttf);
    
 }
 @font-family{
    
-    font-family:Velino_Condensed_Display;
+    font-family:Velino_Condensed_Display
     src: url(fonts/Velino_Condensed_Display.ttf);
 }
 
@@ -217,18 +223,12 @@ h6{
 
 .service-item
 {
-    align-self: center;
     text-align: center;
-
 }
  
 .service-item img {
     width: 100px;
-    height: 100px;
-  
-    
-    
-    
+    height: 100px; 
 }  
 .service-btn{
     background: #c16800;
@@ -236,9 +236,7 @@ h6{
     border: 1px solid transparent;
     border-radius: .25rem;
     padding: 10px 50px;
-    margin-left: 20px;
-
-    
+    margin-left: 20px;   
 }
 
 
@@ -327,19 +325,6 @@ h6{
 
 /*  LEADERSHIP GALLERY   */
 
-/*
-
- .gallery img {
-  width: 100%;
-  height: auto;
-	
-	
-	align-items: center;
-	
-	
-}
-*/
-
  div .desc {
   padding: 15px;
 	text-align: center;
@@ -397,14 +382,9 @@ h6{
 
 /*      slideshow   */
 
-
-
-========================================================
-
 .slider {
 	position: relative;
-	padding-top:70px;
-	height: 400px;
+	height: auto;
 	
 	
 }
@@ -422,10 +402,12 @@ h6{
 
 #carousel-slider .carousel-indicators {
   bottom: -25px;
+
 }
 
 #carousel-slider .carousel-indicators li {
   border: 1px solid #ffbd20;
+	
 }
 
 #carousel-slider a i {
@@ -587,14 +569,6 @@ p.title small
 }
 
 
-    
-}
-
-.solid
-{
-   dnot remove this  
-}
-
 .circle_down
 {
     position: relative;
@@ -726,12 +700,9 @@ p.title small
 	
 }
 
-
-===========================================================
-
 @font-family{
-    font-family: UtopiaStd-BoldDisp;
-    src: url(fonts/UtopiaStd-BoldDisp.otf)
+    font-family: UtopiaStd-BoldDisp
+    src: url(fonts/UtopiaStd-BoldDisp.otf);
 }
 
 
@@ -780,6 +751,7 @@ a.right
 
 
 
+
 /*
 
 
@@ -793,9 +765,10 @@ a.right
      padding-left: 30px;
      
      
-*/
+
     
     }
+*/
     #pointer:after {
         
         width: 200px;
@@ -899,13 +872,6 @@ p.title small
 }
 
 
-    
-}
-
-.solid
-{
-   dnot remove this  
-}
 
 .circle_down
 {
@@ -1229,3 +1195,57 @@ p.title small
 
 /*  Andhra_Association_Healthcare_&_Diagnostic_Centre  */
 
+
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+
+
+	.nav-link {
+  background-color: yellow;
+	border: 2px solid brown;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin: 0px;
+	
+   
+}
+ .nav-link:hover {
+    overflow: hidden;
+    text-decoration: none;
+		border: 2px solid aqua;
+    
+
+}
+
+	.nav-link::after {
+
+	 text-decoration: none;
+		border: 2px solid aqua;
+}
+	
+	
+	
+	
+.nav-link::before {
+
+	 text-decoration: none;
+		border: 2px solid aqua;
+}
+
+
+
+.nav-link:hover::before {
+	
+	 text-decoration: none;
+}
+
+
+
+
+
+}
