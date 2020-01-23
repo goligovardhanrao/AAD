@@ -85,11 +85,9 @@ h6{
 /*   Nav bar  */
 
 
-
-
 .navbar
 {
-	border: 2px solid black;
+border: 2px solid black;
     
 }
 
@@ -131,7 +129,7 @@ h6{
 .nav-link {
   text-decoration: none;
   color: black;
-  display: inline-block;
+  display: block;
   position: relative;
   opacity: 0.75;
 	padding: 0px;
@@ -171,7 +169,7 @@ h6{
 .dropdown-menu .dropdown-item{
   text-decoration: none;
   color: black;
-  display: inline-block;
+  display: block;
   position: relative;
   opacity: 0.75;	
    
@@ -193,6 +191,7 @@ h6{
 .dropdown-menu .dropdown-item:hover::before  {
   width: 80%;
 }
+
 
 
 
@@ -944,6 +943,7 @@ p.title small
 {    width: 870px;
     margin-top: 10px;
 	
+	
 }
 
 .img-latest img img
@@ -1155,23 +1155,6 @@ p.title small
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*    Andhra_Association_Healthcare_&_Diagnostic_Centre */
 
  .left-im{
@@ -1201,51 +1184,56 @@ p.title small
 
 
 
-@media screen and (max-width: 600px)
+@media screen and (max-width: 1200px)
+{
+.navbar-nav
+	{
+		margin-left: -40px;
+	
+		
+	}
+
+
+.nav-item
+	{
+		margin: 0px;
+		
+	}
+
+
+}
+
+
+@media screen and (max-width: 1122px)
 {
 
+	.nav-item
+	{
+		width: 140px;
+	}
+}
 
-	.nav-link {
-  background-color: yellow;
-	border: 2px solid brown;
-		padding-left: 0px;
-		padding-right: 0px;
-		margin: 0px;
+@media screen and (max-width: 1080px)
+{
+
+	.nav-item
+	{
+		width: 130px;
+	}
+}
+
+
+
+
+
+
 	
+	@media screen and (max-width: 992px) {
+		
+		
+		.nav-item
+	{
+		width: 120px;
+	}
    
-}
- .nav-link:hover {
-    overflow: hidden;
-    text-decoration: none;
-		border: 2px solid aqua;
-    
-
-}
-
-	.nav-link::after {
-
-	 text-decoration: none;
-		border: 2px solid aqua;
-}
-	
-	
-	
-	
-.nav-link::before {
-
-	 text-decoration: none;
-		border: 2px solid aqua;
-}
-
-
-
-.nav-link:hover::before {
-	
-	 text-decoration: none;
-}
-
-
-
-
-
 }
