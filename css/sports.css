@@ -16,22 +16,7 @@ body{
     margin: 1.25rem 0;
 }
  
-@media screen and (max-width: 34em) {
-  .col-sm-6{
-    margin-left: 1.25rem;
-}
- 
-}
 
-@media screen and (max-width: 576px) {
-	.img-thumbnail{
-		
-	 margin-left: 30px;
-	border: 2px solid red;
-	}
-
- 
-}
 
 .text {
   background-color: white;
@@ -110,5 +95,29 @@ margin-top: 20px;
 	margin-right: 25px;
 	width: 90%;
 }
+
+
+@media screen and (max-width: 34em) {
+  .col-sm-6{
+    margin-left: 1.25rem;
+}
+ 
+}
+
+@media screen and (max-width: 576px) {
+	.img-thumbnail{
+		
+	 margin-left: 30px;
+	border: 2px solid red;
+	}
+
+ 
+}
+
+@media screen and (max-width: 768px) {
+	.ba{
+ background-image: url(../images/Sports2.png);
+}
+
 
 
